@@ -1,0 +1,14 @@
+{
+  "name": "automated-projects-audit",
+  "version": "1.0.0",
+  "description": "Audita múltiples repos GitHub con Gulp y resume los resultados.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Gonzalo Carmenado",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "5.0.0"
+  }
+}
