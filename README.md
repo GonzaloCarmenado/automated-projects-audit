@@ -1,33 +1,31 @@
-# 🖼️ Conversor de Imágenes a AVIF con Sharp
+# 🔐 Auditoría automática de repositorios con `npm audit fix`
 
-## 📦 Descripción del proyecto
+Automatiza la auditoría de vulnerabilidades en múltiples proyectos de Node.js, ejecuta `npm audit fix`, genera un resumen antes y después del fix, y si hay cambios, hace `git commit` y `push` automáticamente 🚀
 
-    Permite transformar de manera rápida las imágenes de la carpeta "images" en formato .AVIF. Este formato ocupa bastante menos manteniendo una resolución
-    correcta. Usar AVIF ayuda a la velocidad de carga de las páginas web. Las imagenes que hay son de ejemplo, para que una vez ejecutes el comando, puedas ver
-    cuanto espacio estás ganando.
+---
 
-## 🛠️ Requisitos
+## ✨ Características
 
-    - Node.js (versión XX o superior)
-    - NPM o Yarn
-    - Gulp (instalado global o localmente)
-    - Dependencias del proyecto:
-    - `sharp`
-    - `gulp`
-    - `fs` (nativo)
-    - `path` (nativo)
+- 🧪 **Auditoría automática** con `npm audit`
+- 🔧 **Corrección automática** con `npm audit fix`
+- 📊 **Resumen de vulnerabilidades antes y después**
+- 📤 **Commit & push automático** si se actualizan dependencias
+- 🧹 **Limpieza automática** tras cada ejecución
+- 📝 **Log global** con los resultados de todas las auditorías
 
-## 📁 Estructura de carpetas esperada
+---
 
-    ├── images/ # Carpeta de entrada con imágenes originales
-    ├── reduced-images/ # Carpeta de salida para imágenes AVIF generadas
-    ├── gulpfile.js # Script principal con la tarea de Gulp
-    └── README.md
+## 📦 Requisitos
 
-## 🚀 Instalación
+- Node.js `>= 18`
+- Acceso a los repositorios con permisos de `push`
+- Autenticación Git configurada (SSH o token guardado)
 
-    Para instalar solo es necesario ejecutar npm i para instalar las dependencias.
+---
 
-## 🧾 Comandos útiles & ejecución
+## 🚀 Cómo usar
 
-    Para lanzar la aplicación basta con ejecutar npm run build o gulp generateImg.
+### 1. Instala dependencias
+
+```bash
+npm install

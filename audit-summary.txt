@@ -14,3 +14,36 @@
 ➡️ Después del fix
    : Critical: 0, High: 0, Moderate: 0, Low: 0
 --------------------------------------------------
+
+
+🕒 Auditoría - 2025-05-17T17:56:55.912Z
+==================================================
+
+
+🕒 Auditoría - 2025-05-17T17:57:44.559Z
+==================================================
+❌ Error en https://github.com/GonzaloCarmenado/common-connectors.git: Command failed: git clone https://github.com/GonzaloCarmenado/common-connectors.git D:\Git\Otros\automated-projects-audit\temp\common-connectors
+fatal: destination path 'D:\Git\Otros\automated-projects-audit\temp\common-connectors' already exists and is not an empty directory.
+
+
+
+🕒 Auditoría - 2025-05-17T17:59:23.553Z
+==================================================
+📁 common-connectors
+➡️ Antes del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+➡️ Después del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+--------------------------------------------------
+📁 generalHttpCore
+➡️ Antes del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+➡️ Después del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+--------------------------------------------------
+📁 Arquitectura-Front
+➡️ Antes del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+➡️ Después del fix
+   : Critical: 0, High: 0, Moderate: 0, Low: 0
+--------------------------------------------------
